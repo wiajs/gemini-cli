@@ -64,10 +64,10 @@
   },
   "overrides": {
     "ink": "npm:@jrichman/ink@6.4.6",
-    "wrap-ansi": "9.0.2",
-    "cliui": {
-      "wrap-ansi": "7.0.0"
-    }
+    "wrap-ansi": "9.0.2"
+  },
+  "resolutions": {
+    "cliui/wrap-ansi": "7.0.0"
   },
   "bin": {
     "gemini": "bundle/gemini.js"
@@ -123,15 +123,6 @@
     "ink": "npm:@jrichman/ink@6.4.6",
     "latest-version": "^9.0.0",
     "simple-git": "^3.28.0"
-  },
-  "optionalDependencies": {
-    "@lydell/node-pty": "1.1.0",
-    "@lydell/node-pty-darwin-arm64": "1.1.0",
-    "@lydell/node-pty-darwin-x64": "1.1.0",
-    "@lydell/node-pty-linux-x64": "1.1.0",
-    "@lydell/node-pty-win32-arm64": "1.1.0",
-    "@lydell/node-pty-win32-x64": "1.1.0",
-    "node-pty": "^1.0.0"
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx}": [
